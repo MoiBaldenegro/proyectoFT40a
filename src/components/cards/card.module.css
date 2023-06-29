@@ -1,0 +1,45 @@
+
+
+/* ///////////ESTILOS DE LAS TARJETAS ///////////////
+////////////////////////////////////////////////////*/
+
+.cardStyle{
+    font-size: 10px;
+    display: flex;
+    font-family: sans-serif;
+    width: 450px;
+    height: 160px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(236, 236, 236);
+    box-shadow: 5px 5px 5px 1px #9e9c9c8c;
+    border:solid 1px #c4bfbf8c ;
+
+}
+.textCardContainer{
+    justify-content: center;
+    width: 500px;
+    text-align: center;
+}
+.img{
+    display: flex;
+text-align: center;
+}
+.divImage{
+    height: 140px;
+    margin: 9px 9px;
+    border-radius: 5px;
+}
+.cardButton{
+    position: absolute;
+    padding: 8px 12px;
+    margin: 3px;
+    margin-left: 100px;
+    border: none;
+    border-radius:60px;
+    transition: 200ms;
+}
+.cardButton:hover{
+   background-color: rgb(255, 97, 97);
+}
