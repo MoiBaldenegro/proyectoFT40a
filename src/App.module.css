@@ -1,0 +1,34 @@
+.App{
+    display: grid;
+    grid-template-columns: 260px 1fr 1fr;
+    grid-template-rows: 100px 1fr 120px;
+}
+
+.header{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    background-color: var(--acentoClaro);
+
+}
+
+.aside{
+
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
+
+}
+.main{
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+
+}
+
+.footer{
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+
+    background-color: rgba(180, 55, 55, 0.507);
+
+
+}

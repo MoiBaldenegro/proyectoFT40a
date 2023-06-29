@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    border: solid 1px ;
-    margin: 50px 20px
-
+    margin: 30px 10px;
+    width: 98%;
 }

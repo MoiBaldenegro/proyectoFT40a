@@ -15,3 +15,4 @@ export default function Card({name, status, species, gender,origin,image, onClos
       </div>
    );
 }
+
