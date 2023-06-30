@@ -11,13 +11,23 @@
 
 .cardStyle{
     font-size: 9px;
+    font-weight: lighter;
     display: flex;
     font-family: sans-serif;
     text-align: center;
-    margin: 12px 20px;
+    margin: 10px 15px;
     border-radius: 5px;
-    background-color: rgb(252, 252, 252);
+    background-color: rgba(252, 252, 252, 0.801);
     box-shadow: 4px 4px 10px 3px #c0bdbd75;
+    transition: 200ms;
+    color: var(--textoFuerte);
+    min-width: 480px;
+
+}
+.cardStyle:hover{
+    box-shadow: 5px 5px 10px 3px #a0d3f0;
+    background-color: rgb(252, 252, 252);
+    margin-top: 1px 1px;
 
 }
 .textCardContainer{
@@ -45,7 +55,7 @@ text-align: center;
     transition: 200ms;
 }
 .cardButton:hover{
-   background-color: rgb(255, 97, 97);
+   background-color: rgb(13, 216, 47);
 }
 
 /*////////////////////////////////////////////////////
