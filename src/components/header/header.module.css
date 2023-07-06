@@ -1,0 +1,74 @@
+:root{
+    --backgrounColor: #EFF1FA;
+    --acentoFuerte: #0A3871;
+    --acentoClaro: #a0d3f0;
+    --textoClaro: #f2fefeee;
+    --textoFuerte: #053268;
+}
+.header{
+    display: flex;
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    background-color: var(--acentoFuerte);
+    color: var(--textoClaro);
+    box-shadow: 0px 0px 20px 10px #053268;
+
+}
+.logoBanner{
+    display: flex;
+    width: 600px;
+    gap: 40px;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-left: 60px;
+
+}
+
+.font{
+    font-weight: 600;
+}
+.logo{
+    height: 150px;
+}
+.buttonsContainer{
+    display: flex;
+    width: 400px;
+    margin-left: 250px;
+}
+
+.loginButton{
+    margin: 25px 10px;
+    padding: 15px 0px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    border: 1px solid var(--acentoClaro);
+    border-radius: 12px;
+    background-color:#053268;
+    color: var(--acentoClaro);
+    transition: 200ms;
+}
+.loginButton:hover{
+    background-color: #a0d3f0;
+    color: var(--acentoFuerte);
+}
+
+.searchButton{
+    margin: 25px 10px;
+    padding: 15px 10px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    border: solid 1px var(--acentoClaro);
+    border-radius: 12px;
+    background-color:var(--acentoClaro);
+    color: var(--acentoFuerte);
+    transition: 220ms;
+}
+.searchButton:hover{
+    box-shadow: 2px 2px 8px 1px #ffffff69;
+}
+

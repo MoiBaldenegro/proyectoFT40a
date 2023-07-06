@@ -1,0 +1,48 @@
+
+.footer{
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+
+    background-color: var(--acentoFuerte);
+    display: flex;
+    color: aliceblue;
+    justify-content: space-evenly;
+
+
+}
+.container{
+
+   
+}
+.contact{
+    margin-top: 120px;
+    font-size: 24px;
+}
+.button{
+   border-radius: 35px;
+    
+    
+}
+.ico{
+    height: 80px;
+    padding: 5px;
+    border-radius: 12px;
+    
+    
+
+}
+
+.h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+.h4:hover{
+}
+
+
+div div ul li:hover{
+    text-decoration: underline;
+
+}

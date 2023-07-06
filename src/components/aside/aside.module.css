@@ -1,0 +1,39 @@
+.aside{
+    display:flex;
+
+
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    background-color: var(--acentoClaro);
+    opacity: .8;
+    margin: 5px;
+    font-size: 12px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 2px #03306671;
+
+}
+.h3{
+    color: #032f66;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    transition: 200ms;
+    margin: 20px 0px;
+    
+
+}
+.h3:hover{
+    text-decoration: underline;
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: #062e5f1a;
+    padding: 2px;
+
+}
+
+.h2{
+    color: #062e5f;
+    text-align: center;
+    background-color: #062e5f1a;
+    
+}

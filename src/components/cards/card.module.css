@@ -1,7 +1,7 @@
 :root{
     --backgrounColor: #EFF1FA;
     --acentoFuerte: #0A3871;
-    --acentoClaro: #a0d3f0;
+    --acentoClaro: #a0d3f070;
     --textoClaro: #f2fefe;
     --textoFuerte: #053268;
 }
@@ -16,18 +16,23 @@
     font-family: sans-serif;
     text-align: center;
     margin: 10px 15px;
-    border-radius: 5px;
+    
     background-color: rgba(252, 252, 252, 0.801);
     box-shadow: 4px 4px 10px 3px #c0bdbd75;
     transition: 200ms;
     color: var(--textoFuerte);
     min-width: 480px;
+  border-bottom: none;
+  border-radius: 6px;
+  border-bottom-right-radius: 60px;
 
 }
 .cardStyle:hover{
-    box-shadow: 5px 5px 10px 3px #a0d3f0;
+    box-shadow: 5px 5px 10px 3px #76c0eb;
     background-color: rgb(252, 252, 252);
     margin-top: 1px 1px;
+  border-bottom-right-radius: 20px;
+
 
 }
 .textCardContainer{
@@ -38,7 +43,22 @@
 }
 .img{
     display: flex;
-text-align: center;
+    text-align: center;
+}
+.img:hover::after{
+    content: "Details";
+    position: absolute;
+    padding: 58px 45px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: black;
+
+}.img:hover{
+    opacity: .6;
+    transition: 600ms;
+
 }
 .divImage{
     height: 140px;
@@ -49,13 +69,27 @@ text-align: center;
     position: absolute;
     padding: 8px 12px;
     margin: 3px;
-    margin-left: 100px;
+    margin-left: 140px;
     border: none;
     border-radius:60px;
     transition: 200ms;
 }
 .cardButton:hover{
    background-color: rgb(13, 216, 47);
+}
+.nombre{
+        background-color: var(--acentoFuerte);
+        color: #f9fafa;
+        width: 120px;
+        width: 120px;
+        margin: 0px auto;
+        border-radius: 5px;
+       
+}
+
+.name{
+    justify-content: center;
+
 }
 
 /*////////////////////////////////////////////////////

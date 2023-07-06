@@ -1,52 +1,17 @@
 .App{
     display: grid;
     grid-template-columns: 180px 1fr 1fr 1fr;
-    grid-template-rows: 80px 225px 1fr 120px;
-}
-
-.header{
-    grid-column: 1 / 5;
-    grid-row: 1 / 2;
-    background-color: var(--acentoFuerte);
-    box-shadow: 0px 0px 10px 5px;
+    grid-template-rows: 100px 230px 1fr 240px;
+    background-color: #a0d3f0bb;
 
 }
-.search{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 32px;
-    font-family: sans-serif;
-    color: var(--acentoFuerte);
-    grid-column: 1 / 5;
-    grid-row: 2 / 3;
-    background-color: var(--acentoClaro);
-    opacity: .8;
-    border-bottom: solid 2px #0a38715d;
-    box-shadow: 0px 0px 20px 5px;
-    
-}
-
-.aside{
-
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-    background-color: var(--acentoClaro);
-    opacity: .8;
 
 
-}
+
+
 .main{
     grid-column: 2 / 5;
     grid-row: 3 / 4;
 
 }
 
-.footer{
-    grid-column: 1 / 5;
-    grid-row: 4 / 5;
-
-    background-color: var(--acentoFuerte);
-
-
-}
